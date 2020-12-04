@@ -14,7 +14,7 @@ def main(args):
     values = string.ascii_letters
     values += string.digits
     values += string.punctuation
-    tamanho = 4
+    tamanho = 3
 
     ini_t = time.time()
     gerar_senhas(values, tamanho)
