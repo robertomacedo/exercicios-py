@@ -1,16 +1,24 @@
-# This is a sample Python script.
+"""
+Calculadora simples em python
+O objetivo é desenvolver a lógica não há uma preocupação com escrever menos código nesse momento.
+"""
+print('---------------------------------------')
+print('CALCULADORA SIMPLES COM PYTHON')
+print('---------------------------------------')
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+operacao = input('Digite a operação: (soma, mult, sub, div)')
+numero1 = input('Digite o primeiro número: ')
+numero2 = input('Digite o segundo númeor: ')
 
+if operacao == 'soma':
+    print(int(numero1) + int(numero2))
+if operacao == 'mult':
+    print(int(numero1) * int(numero2))
+if operacao == 'sub':
+    print(int(numero1) - int(numero2))
+if operacao == 'div':
+    print(int(numero1) / int(numero2))
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+else:
+    print('Operação não foi possível.')
 
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
