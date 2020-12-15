@@ -1,4 +1,6 @@
-import speech_recognition as sr
+import s as sr
+
+# Importar lib correta para execução da fala
 
 r = sr.Recognizer()
 with sr.Microphone() as s:
