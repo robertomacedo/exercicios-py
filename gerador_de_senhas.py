@@ -6,8 +6,8 @@ from datetime import timedelta
 from random import random, choice
 """
 Gerador de senha 
-O programa recebe números, letras mais caracteres espciais 
-e gera as combinações possíveis para gerar senhas com as combinações possíveis.
+O programa recebe números, letras mais caracteres especiais 
+e gera as combinações possíveis .
 """
 
 def main(args):
