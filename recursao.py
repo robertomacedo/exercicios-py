@@ -20,4 +20,4 @@ def fatorial_for(f):
         resultado = resultado * i
     return resultado
 
-print(f'O fatorial de {f} é: {fatorial_for(f)}') # fatorial_for(f))
+print(f'O fatorial de {f} é: {fatorial_for(f)}')
