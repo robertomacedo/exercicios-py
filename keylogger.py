@@ -1,8 +1,8 @@
 """
-Exercicio estudando python
+Exercicio: estudando python
 
 Criando um keylogger com python, utilizando a lib
-pynput
+pynput objetivo entender melhor o uso de libs e treinar lógica com o projeto.
 
 """
 from pynput.keyboard import Listener, Key
