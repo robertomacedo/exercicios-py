@@ -2,6 +2,8 @@
 Exercício em Python
 Digite um número e saiba seu valor em fatorial
 
+Equação de fatorial
+
 n! = n*(n-1) * n(n-2)*...*1
 f(n) = n*(n-1), se n>1
 """
