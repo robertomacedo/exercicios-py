@@ -1,4 +1,8 @@
+chamadas_hanoi = 0
+
 def _torre_de_hanoi_recursivo(numero_de_disco, origem, destino, auxiliar):
+    global chamadas_hanoi
+    chamadas_hanoi += 1
     if numero_de_disco == 1:
         print(f'{origem} -> {destino} : {numero_de_disco}')
         return
@@ -8,6 +12,8 @@ def _torre_de_hanoi_recursivo(numero_de_disco, origem, destino, auxiliar):
 
 
 def torre_de_hanoi(numero_de_disco: int):
+    global chamadas_hanoi
+    chamadas_hanoi = 0
     _torre_de_hanoi_recursivo(numero_de_disco, origem='A', destino='B', auxiliar='C')
 
 
@@ -15,4 +21,5 @@ if __name__ == '__main__':
     for i in range(1, 7):
         print(f'#### Hanoi para {i} discos')
         torre_de_hanoi(i)
+        print(f'***********{chamadas_hanoi} chamadas')
 
