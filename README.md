@@ -1,6 +1,6 @@
 # Exercicios
 
-Repositório do programador exercícios em Python
+Repositório do programador exercícios utilizando a linguagem Python
 
 ## Tarefas
 
@@ -14,8 +14,6 @@ O controle das tarefas desse projeto será realizado no Github.
 :checkered_flag: Release
 
 
-Aprendendo lógica com python
-Objetivo é entender a lógica dos exercícios buscar o mesmo resultado de forma diferente se possível.
 
-Eventuais inconsistências na escrita, será motivo de trabalhar correções via git, também é uma forma de aprendizado 
-no meu caso.
+Objetivo é entender a lógica com exercícios utilizando a linguagem Python.
+
