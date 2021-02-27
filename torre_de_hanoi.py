@@ -1,14 +1,13 @@
 chamadas_hanoi = 0
 
 """
-Estudando o clássico problema da torre de hanoi, o algorítmo vai apresentar a quantidade de chamadas
-da funão dependendo da quantidade dediscos na torre.
-
-o resultado das chamadas nos mostra que a função para esse problema eh exponencial
+Algoritmo torre de hanoi
 
 f(n-1)
 
 """
+
+a = int(input('Número de discos: '))
 
 def _torre_de_hanoi_recursivo(numero_de_disco, origem, destino, auxiliar):
     """
@@ -38,8 +37,13 @@ def torre_de_hanoi(numero_de_disco: int):
 
 
 if __name__ == '__main__':
-    for i in range(1, 7):
+    for i in range(1, a):
         print(f'#### Hanoi para {i} discos')
         torre_de_hanoi(i)
         print(f'***********{chamadas_hanoi} chamadas')
 
+opc = int(input('Deseja continuar? \n1. Sim\n2. Sair\n'))
+if opc == 1:
+    torre_de_hanoi()
+else:
+    print('Saindo..')
