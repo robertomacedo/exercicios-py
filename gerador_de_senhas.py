@@ -14,7 +14,7 @@ O tempo é proporcional ao número de caracteres
 """
 
 print('============================================')
-print('GERADOR DE SENHAS USANDO PYTGON')
+print('GERADOR DE SENHAS USANDO PYTHON')
 
 tamanho = int(input('Digite um número: '))
 def main(args):
