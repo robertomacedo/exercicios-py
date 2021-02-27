@@ -8,8 +8,8 @@ print('SEQUÊNCIA DE FIBONACCI')
 print('---------------------------')
 fb = int(input('Digite um valor: '))
 
-def fibo():
-    pass
+#def fibo():
+ #   pass
 
 anterior = 0
 proximo = 1
