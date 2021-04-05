@@ -14,4 +14,4 @@ dif = (date.today() - datan)
 
 result = (dif.days / 365.25)
 
-print('%s você tem atualmente %d' %(nome, result))
+print('%s você tem atualmente %d anos' %(nome, result))
